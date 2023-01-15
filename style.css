@@ -19,7 +19,7 @@
 
 
 .hero-section{
-    background-color: rgba(255, 144, 14, 0.1);
+    background-color: rgb(0, 135, 232);
     margin-bottom: 50px;
 }
 nav {
@@ -35,6 +35,9 @@ nav>div>h2 {
     font-weight: 800;
     font-size: 40px;
 
+}
+span{
+    color: #FF900E;
 }
 
 nav>div>a {
@@ -55,6 +58,7 @@ color: black;
 .top-banner >h1{
     font-weight: 700;
 font-size: 64px;
+color: white;
 
 }
 .top-banner >p{
@@ -65,9 +69,17 @@ margin: 15px;
 }
 .top-btn{
     margin-bottom: 15px;
+    width: 120px;
+height: 40px;
+background-color: #FF900E;
+border: none;
+font-weight: bolder;
+color: white;
+border-radius: 5px;
 }
 .bottom-banner > img{
     width: 100%;
+    
 
 }
 
