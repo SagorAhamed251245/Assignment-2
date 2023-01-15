@@ -242,3 +242,49 @@ nav>div>a {
 }
 
 /* banner section end  */
+
+.bottom-facts{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-evenly;
+    gap: 20px;
+}
+.bottom-facts > div{
+    width: 150px;
+height: 150px;
+border: #000000 2px solid ;
+border-radius: 15px;
+}
+
+.bottom-facts > div >div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  padding:7px;
+  height: 100%;
+ 
+  
+}
+.bottom-facts > div >div>p{
+    font-weight: bolder;
+}
+
+.facts-hover{
+    background: linear-gradient(to right, #000000 50%, rgba(255, 144, 14, 0.1) 50%);
+    background-size: 200% 100%;
+    background-position: right;
+    transition: all 1s ease-out;
+
+}
+
+/* facts section end  */
+    
+
+
+.facts-hover:hover {
+
+    background-position: left;
+    color: white;
+
+}
