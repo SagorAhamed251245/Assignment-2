@@ -461,7 +461,7 @@ hr {
 
 /* breakpoint start  */
 
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 900px){
     nav{
         flex-direction: column;
     }
@@ -515,6 +515,11 @@ hr {
     margin-top: 725px;
     margin-right: 435px;
 
+}
+.bottom-facts{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 	
 }
