@@ -461,6 +461,26 @@ hr {
 
 /* breakpoint start  */
 
+@media only screen and (max-width: 768px){
+    nav{
+        flex-direction: column;
+    }
+    .ancor{
+        display: flex;
+        flex-direction: column;
+        margin-top: 15px;
+        gap: 15px;
+        text-align: center;
+        
+       
+
+    }
+    .responsive-nav{
+        height: auto;
+    }
+	
+}
+
 
 
 
