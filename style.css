@@ -19,10 +19,11 @@ body {
 }
 
 .h2 {
-    font-weight: 00;
+    font-weight: 700;
     font-size: 35px;
     color: black;
 }
+
 
 
 .container {
@@ -313,14 +314,23 @@ footer {
     height: 450px;
     background-color: black;
 }
+.h3{
+    
+        font-weight: 700;
+        font-size: 25px;
+        color: black;
+    
 
-footer>.h2 {
+}
+footer>.h3 {
     height: 40%;
     color: white;
-    display: block;
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+
+    
+    
 }
 
 .hr {
