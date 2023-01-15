@@ -81,14 +81,31 @@ nav>div>a {
 
 .ten-year{
     position: absolute; 
-    background-color: chartreuse; 
+    background-color: #FF900E; 
     height: 100px;
-    width: 120px;
-    margin-top: 882px;
+    width: auto;
+    margin-top: 980px;
+    margin-right: 707px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 10px;
+    
 
 
 
 }
+
+.ten-year h1{
+    font-weight: bolder;
+font-size: 30px;
+
+}
+.ten-year >div{
+    padding: 15px;
+}
+
 
 .top-banner {
     text-align: center;
@@ -223,6 +240,9 @@ nav>div>a {
 
 .banner-section {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .card {
@@ -286,7 +306,7 @@ nav>div>a {
 }
 
 .facts-hover {
-    background: linear-gradient(to right, #000000 50%, rgba(255, 144, 14, 0.1) 50%);
+    background: linear-gradient(to right, #000000 50%, #fff3e6 50%);
     background-size: 200% 100%;
     background-position: right;
     transition: all 1s ease-out;
@@ -320,11 +340,12 @@ nav>div>a {
 
 /* footer start */
 footer {
+    margin-top: 100px;
 
     align-items: center;
     width: auto;
-    height: 480px;
-    background-color: black;
+    
+    background-color: #fff3e6;
 }
 .h3{
     
@@ -337,7 +358,7 @@ footer {
 }
 footer>.h3 {
     height: 40%;
-    color: white;
+    color: rgb(0, 0, 0);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,13 +374,15 @@ footer>.h3 {
 }
 
 hr {
-
+ margin-top: 2%;
     width: 80%;
     text-align: left;
     margin-left: 0
 }
 
 .other-info {
+    margin-top: 2%;
+    margin-bottom: 2%;
     height: 10%;
     
     display: flex;
@@ -371,8 +394,9 @@ hr {
 
 .other-info>h6>a {
     text-decoration: none;
-    color: rgb(171, 171, 171);
+    color: rgb(0, 0, 0);
     padding: 3px
+    
 }
 
 
@@ -429,5 +453,14 @@ hr {
     border-radius: 5px;
 
 }
+
+.copy-right{
+    margin-bottom: 2%;
+}
+
+
+/* breakpoint start  */
+
+
 
 
