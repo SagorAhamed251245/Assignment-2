@@ -483,9 +483,39 @@ hr {
         display: flex;
         align-items: center;
         justify-content: center;
-        flex-direction: column
+        flex-direction: column;
         
     }
+
+    .features {
+    display: flex;
+     flex-direction: column;
+     align-items: center;
+        justify-content: center;
+
+}
+.features>div {
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.card{
+    width: 100%;
+}
+
+.banner-section{
+    width: 100%;
+
+}
+.banner-section>img{
+    width: 100%;
+    margin-top: 25px;
+}
+.ten-year{
+    margin-top: 725px;
+    margin-right: 435px;
+
+}
 	
 }
 
