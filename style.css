@@ -186,12 +186,12 @@ nav>div>a {
 
 /* <!-- top article end  --> */
 
-.Features {
+.features {
     display: flex;
 
 }
 
-.Features>div {
+.features>div {
     display: flex;
     align-items: center;
     width: 50%;
